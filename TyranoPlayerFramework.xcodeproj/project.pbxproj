@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272B78D91DEC8C4A006B3EAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B78D81DEC8C4A006B3EAA /* AppDelegate.swift */; };
+		272B78DB1DEC8C4A006B3EAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B78DA1DEC8C4A006B3EAA /* ViewController.swift */; };
+		272B78DE1DEC8C4A006B3EAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272B78DC1DEC8C4A006B3EAA /* Main.storyboard */; };
+		272B78E01DEC8C4A006B3EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 272B78DF1DEC8C4A006B3EAA /* Assets.xcassets */; };
+		272B78E31DEC8C4A006B3EAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 272B78E11DEC8C4A006B3EAA /* LaunchScreen.storyboard */; };
+		272B7E0A1DEC9A78006B3EAA /* game in Resources */ = {isa = PBXBuildFile; fileRef = 272B7E091DEC9A78006B3EAA /* game */; };
+		272B7E0C1DED39B0006B3EAA /* tyrano_player.js in Resources */ = {isa = PBXBuildFile; fileRef = 272B7E0B1DED39B0006B3EAA /* tyrano_player.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		272B78D51DEC8C4A006B3EAA /* TyranoPlayerFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TyranoPlayerFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		272B78D81DEC8C4A006B3EAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		272B78DA1DEC8C4A006B3EAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		272B78DD1DEC8C4A006B3EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		272B78DF1DEC8C4A006B3EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		272B78E21DEC8C4A006B3EAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		272B78E41DEC8C4A006B3EAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272B7E091DEC9A78006B3EAA /* game */ = {isa = PBXFileReference; lastKnownFileType = folder; path = game; sourceTree = "<group>"; };
+		272B7E0B1DED39B0006B3EAA /* tyrano_player.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tyrano_player.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272B78D21DEC8C4A006B3EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272B78CC1DEC8C4A006B3EAA = {
+			isa = PBXGroup;
+			children = (
+				272B78D71DEC8C4A006B3EAA /* TyranoPlayerFramework */,
+				272B78D61DEC8C4A006B3EAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272B78D61DEC8C4A006B3EAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272B78D51DEC8C4A006B3EAA /* TyranoPlayerFramework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272B78D71DEC8C4A006B3EAA /* TyranoPlayerFramework */ = {
+			isa = PBXGroup;
+			children = (
+				272B7E0B1DED39B0006B3EAA /* tyrano_player.js */,
+				272B7E091DEC9A78006B3EAA /* game */,
+				272B78D81DEC8C4A006B3EAA /* AppDelegate.swift */,
+				272B78DA1DEC8C4A006B3EAA /* ViewController.swift */,
+				272B78DC1DEC8C4A006B3EAA /* Main.storyboard */,
+				272B78DF1DEC8C4A006B3EAA /* Assets.xcassets */,
+				272B78E11DEC8C4A006B3EAA /* LaunchScreen.storyboard */,
+				272B78E41DEC8C4A006B3EAA /* Info.plist */,
+			);
+			path = TyranoPlayerFramework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272B78D41DEC8C4A006B3EAA /* TyranoPlayerFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272B78E71DEC8C4A006B3EAA /* Build configuration list for PBXNativeTarget "TyranoPlayerFramework" */;
+			buildPhases = (
+				272B78D11DEC8C4A006B3EAA /* Sources */,
+				272B78D21DEC8C4A006B3EAA /* Frameworks */,
+				272B78D31DEC8C4A006B3EAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TyranoPlayerFramework;
+			productName = TyranoPlayerFramework;
+			productReference = 272B78D51DEC8C4A006B3EAA /* TyranoPlayerFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272B78CD1DEC8C4A006B3EAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "永谷浩史";
+				TargetAttributes = {
+					272B78D41DEC8C4A006B3EAA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DLW9CMP935;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 272B78D01DEC8C4A006B3EAA /* Build configuration list for PBXProject "TyranoPlayerFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 272B78CC1DEC8C4A006B3EAA;
+			productRefGroup = 272B78D61DEC8C4A006B3EAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272B78D41DEC8C4A006B3EAA /* TyranoPlayerFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272B78D31DEC8C4A006B3EAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272B78E31DEC8C4A006B3EAA /* LaunchScreen.storyboard in Resources */,
+				272B7E0C1DED39B0006B3EAA /* tyrano_player.js in Resources */,
+				272B78E01DEC8C4A006B3EAA /* Assets.xcassets in Resources */,
+				272B7E0A1DEC9A78006B3EAA /* game in Resources */,
+				272B78DE1DEC8C4A006B3EAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272B78D11DEC8C4A006B3EAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272B78DB1DEC8C4A006B3EAA /* ViewController.swift in Sources */,
+				272B78D91DEC8C4A006B3EAA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		272B78DC1DEC8C4A006B3EAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272B78DD1DEC8C4A006B3EAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		272B78E11DEC8C4A006B3EAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				272B78E21DEC8C4A006B3EAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		272B78E51DEC8C4A006B3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		272B78E61DEC8C4A006B3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		272B78E81DEC8C4A006B3EAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = TyranoPlayerFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = poptepiwafter.spoalove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		272B78E91DEC8C4A006B3EAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				DEVELOPMENT_TEAM = DLW9CMP935;
+				INFOPLIST_FILE = TyranoPlayerFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = poptepiwafter.spoalove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272B78D01DEC8C4A006B3EAA /* Build configuration list for PBXProject "TyranoPlayerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272B78E51DEC8C4A006B3EAA /* Debug */,
+				272B78E61DEC8C4A006B3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272B78E71DEC8C4A006B3EAA /* Build configuration list for PBXNativeTarget "TyranoPlayerFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272B78E81DEC8C4A006B3EAA /* Debug */,
+				272B78E91DEC8C4A006B3EAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272B78CD1DEC8C4A006B3EAA /* Project object */;
+}
