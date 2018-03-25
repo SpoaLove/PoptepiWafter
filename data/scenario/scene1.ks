@@ -3,7 +3,7 @@
 [cm  ]
 *Start
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="游戏原声-Breath_of_Stars.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="游戏原声-Breath_of_Stars.ogg"  ]
 [bg  storage="螢幕快照_2018-03-24_下午9.38.08.png"  time="1000"  ]
 [tb_show_message_window  ]
 [tb_start_text mode=1 ]
@@ -90,7 +90,7 @@
 是的，这是我和库特共同度过的夏天的故事 — —...。[p]
 [_tb_end_text]
 
-[playbgm  volume="100"  time="1000"  loop="true"  storage="POP_TEAM_EPIC.mp3"  ]
+[playbgm  volume="100"  time="1000"  loop="true"  storage="上坂すみれ_(上坂堇)-POP_TEAM_EPIC.ogg"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
 [bg  time="1000"  method="crossfade"  storage="timg-6.jpg"  ]
 [quake  time="300"  count="3"  hmax="10"  wait="true"  ]
@@ -105,3 +105,5 @@
 # PIPI美
 「垃圾游戏呢」[p]
 [_tb_end_text]
+
+[jump  storage="scene1.ks"  target="*Start"  ]
